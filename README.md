@@ -18,7 +18,7 @@ Học phần **Kiểm thử phần mềm** giúp cho sinh viên hiểu được 
 ## 📚 Tài liệu tham khảo
 | STT    | Tài liệu      | Tác giả|
 |--------|-----------------|------------|
-| 1      | Bài Giảng  | [GV. Bùi Thị Hồng Minh](https://github.com/TuanKiet1774/Testing/blob/main/Slide%20To%C3%A0n%20B%E1%BB%99%20B%C3%A0i%20Gi%E1%BA%A3ng.pdf)          |
+| 1      | Bài Giảng  | [GV. Bùi Thị Hồng Minh](https://github.com/TuanKiet1774/Testing/blob/main/SlideBaiGiang.pdf)          |
 | 2      | Bài giảng Kiểm thử và bảo đảm chất lượng phần mềm  | [GV. Thạc Bình Cường](https://elearning.ntu.edu.vn/pluginfile.php/1185788/mod_resource/content/1/BGKiemThuVaDaoBaoChatLuongPhanMem_ThacBinhCuong.pdf)|
 | 3      |...|... |
 
