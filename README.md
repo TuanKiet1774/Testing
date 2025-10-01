@@ -13,7 +13,7 @@ Học phần **Kiểm thử phần mềm** giúp cho sinh viên hiểu được 
 4. Kỹ thuật kiểm thử hộp trắng
    - Phân tích/kiểm thử luồng điều khiển (Control Flow Testing)
    - Phân tích/kiểm thử luồng dữ liệu (Data Flow Testing)
-6. Thực hành kiểm thử trên các dự án mẫu
+5. Thực hành kiểm thử trên các dự án mẫu
 
 ## 📚 Tài liệu tham khảo
 | STT    | Tài liệu      | Tác giả|
