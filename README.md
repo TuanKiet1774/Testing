@@ -20,8 +20,9 @@ Học phần **Kiểm thử phần mềm** giúp cho sinh viên hiểu được 
 |--------|-----------------|------------|
 | 1      | Bài Giảng  | [GV. Bùi Thị Hồng Minh](https://github.com/TuanKiet1774/Testing/blob/main/SlideBaiGiang.pdf)          |
 | 2      | Bài giảng Kiểm thử và bảo đảm chất lượng phần mềm  | [GV. Thạc Bình Cường](https://elearning.ntu.edu.vn/pluginfile.php/1185788/mod_resource/content/1/BGKiemThuVaDaoBaoChatLuongPhanMem_ThacBinhCuong.pdf)|
-| 3      |Tài liệu làm bài tập nhóm Guru99| [Guru99 Banking](https://github.com/TuanKiet1774/Testing/tree/main/BaiTapNhom) |
-|4       |...|...|
+| 3      | Tài liệu làm bài tập nhóm Guru99| [Guru99 Banking](https://github.com/TuanKiet1774/Testing/tree/main/BaiTapNhom) |
+| 4      | Công cụ vẻ sơ đồ| [Draw.IO](https://app.diagrams.net/) |
+| 5      |...|...|
 
 ---
 
