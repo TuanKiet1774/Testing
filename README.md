@@ -16,7 +16,7 @@ Học phần **Kiểm thử phần mềm** giúp cho sinh viên hiểu được 
 5. Thực hành kiểm thử trên các dự án mẫu
    - [Postman](https://www.postman.com/downloads/)
    - [Tải Nodejs](https://nodejs.org/en/download)
-   - 
+   - [Cypress](https://github.com/TuanKiet1774/Testing/blob/main/cypress/Ghichu.txt)
 
 ## 📚 Tài liệu tham khảo
 | STT    | Tài liệu      | Tác giả|
