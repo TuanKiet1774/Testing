@@ -1,0 +1,52 @@
+Khăc phục npm -v lỗi
+- Mở PowerShell chạy với Admin 
+- gõ lệnh Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+- gõ Y 
+---
+
+node -v
+npm -v 
+npm init -y 
+npm install cypress --save-de
+npx cypress open
+
+Web test: https://the-internet.herokuapp.com/login 
+
+Các lệnh
+describe: Định nghĩa một "Bộ kich bản" (Test Suite)
+it: Định nghĩa một "Kịch bản" (Test Case cụ thể)
+cy.get(): Lấy phần tử (id -> #, class -> .)
+cy.visit('url'): Truy cập đến Website
+.type('Nội dung'): Gõ nội dung vào
+.click(): Nhấn vào
+.first(): Đầu tiên
+.last(): Cuối cùng
+
+Nếu như không có id hoặc class
+cy.get('input[type="checkbox"]')
+cy.get('input[name="username"]')
+cy.get('input[name="password"]')
+cy.get('button[type="submit"]')
+
+Kiểm tra .should()
+.should('be.visible'): Có hiển thị không
+.should('contain', 'Nội dung'): Có nội dung là được
+.should('have.text', 'Nội dung'): Có nội dung đúng 100%
+.should('have.value', 'Giá trị'): Có giá trị là 'Giá trị'
+should('be.enabled'): Trạng thái tồn tại
+should('be.checked'): Được chọn
+should('not.be.checked'): Không được chọn
+.should('include', '/secure'): Chuyển hướng trang thành công
+
+Sử dụng AI hỗ trợ
+Ví dụ: Chức năng giỏ hàng trên một trang e-commerce. Người dùng có thể thêm sản phẩm vào giỏ, xem giỏ hàng, và xóa sản phẩm khỏi giỏ.
+
+Prompt tìm kiếm: Hãy đóng vai một Senior QA/Tester. Tôi có một yêu cầu chức năng (requirements) như sau: Chức năng giỏ hàng trên một trang e-commerce. Người dùng có thể thêm sản phẩm vào giỏ, xem giỏ hàng, và xóa sản phẩm khỏi giỏ. Hãy viết tất cả các kịch bản kiểm thử (test cases) có thể có. Phân loại chúng thành: Test case tích cực (Positive), Test case tiêu cực (Negative), và Test case kiểm thử biên (Boundary)
+
+Sử dụng AI viết code Cypress cho Test case: Kiểm tra chức năng Đăng nhập thành công trên trang https://the-internet.herokuapp.com/login.
+Cho kịch bản:
+1. Truy cập trang https://the-internet.herokuapp.com/login
+2. Tìm ô username (có ID là username) và nhập vào tomsmith
+3. Tìm ô password (ID là password) và nhập vào SuperSecretPassword!
+4. Nhấn nút Login (có selector là button[type="submit"])
+5. Kiểm tra trang chuyển hướng thành công và hiển thị một banner (có ID là flash) chứa dòng chứ là You logged into a secure area!
